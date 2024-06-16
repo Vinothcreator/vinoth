@@ -1,0 +1,57 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            .ball{
+                height:100px ;
+                width:100px;
+                background-image: radial-gradient(violet,blue,aqua);
+                border-radius: 50%;
+                animation-name: ball;
+                animation-duration: 2s;
+                animation-iteration-count: infinite;
+            }
+            .table{
+                height: 10px;
+                width: 150px;
+                background-image: linear-gradient(to top,black,orange,white);
+                border-radius: 20px;
+                position: absolute;
+                top: 400px;
+                left: -10px;
+            }
+            @keyframes ball {
+              0%{
+                    transform: translateX(100px);
+                    transform: translateY(100px);
+                }
+                20%
+                   {
+                    transform: translateX(120px);
+                    transform: translateY(290px);
+                }
+                40%{
+                    transform: translate(180px);
+                    transform: translate(180px);
+                }
+                60%{
+                    transform: translate(150%);
+                    transform: translate(130px);
+                }
+                80%{
+                    transform: translate();
+                }
+                
+            }
+        </style>
+    </head>
+    <body>
+        <div class="ball"></div>
+        <div class="table"></div>
+    </body>
+    </html>
+</body>
+</html>
